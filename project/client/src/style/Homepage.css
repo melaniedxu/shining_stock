@@ -1,0 +1,34 @@
+.genres-container {
+  /* margin: 10px 0; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  /* border-bottom: 1px solid #ddd; */
+}
+
+.genres-container .genre {
+  flex: 1 0 20%;
+  margin: 5px 0;
+  padding: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.genres-container .genre:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+.movies-container .stock-header, .results-container .popularstock {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+}
+
+.popularstock .name,.popularstock .rating,.stockinfo .rating, .stock-header .header-lg {
+  flex: 1 0 20%;
+}
+
+.stock-header .header, .popularstock .rating,.stockinfo .rating {
+  flex: 1 0 25%;
+}

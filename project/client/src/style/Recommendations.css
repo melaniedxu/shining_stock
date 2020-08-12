@@ -1,0 +1,16 @@
+.header-container, .results-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 2px; 
+}
+
+.header-container .headers, .results-container .stockResults {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+}
+
+.stockResults .ticker, .stockResults .name, .stockResults .sector, .stockResults .open, .stockResults .high, .headers .header {
+  flex: 1 0 20%;
+}

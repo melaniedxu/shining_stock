@@ -1,0 +1,17 @@
+.stocks-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10px;
+}
+
+.stocks-container .stock, .stocks-container .stockResults {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.stock .header, .stockResults .ticker, .stockResults .name, .stockResults .sector, .stockResults .open, .stockResults .high {
+  flex: 1 0 20%;
+}
